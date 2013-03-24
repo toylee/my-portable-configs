@@ -1,0 +1,10 @@
+# name: Pre tag
+# contributor: Coory Lee <leecoory@gmail.com>
+# key: pre
+# --
+<pre>
+${1:Code}
+</pre>
+    
+$0
+

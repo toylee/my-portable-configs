@@ -1,0 +1,11 @@
+# name: Figure tag (```)
+# contributor: Coory Lee <leecoory@gmail.com>
+# key: figure
+# --
+<figure class='code'><figcaption><span>${1:Name}(${2:Path})</span></figcaption>
+<pre>
+${3:Code}
+</pre>
+</figure>
+	
+$0

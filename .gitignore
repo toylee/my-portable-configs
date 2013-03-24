@@ -1,0 +1,8 @@
+*.sh~
+.git/
+*~
+*.elc
+*.pyc
+Emacs-config/.emacs.d/eproject.lst
+Emacs-config/.emacs.d/ac-comphist.dat
+
