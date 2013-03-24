@@ -1,6 +1,6 @@
 #!/bin/bash -x
 
-workplace=$PWD
+workplace=$HOME #default target workplace
 
 if [ $# -ne 0 ];then
   echo "Usage - $0 "

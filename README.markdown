@@ -1,5 +1,5 @@
 
-__This project is just for my portable use. __
+__This project is just for my portable use.__
   
 __`My-configs` will download nothing during automatic work, this means`My-configs` won't install any software automatically, it will cut off a lot energy to program the install the software in different platform.__
 
@@ -9,7 +9,7 @@ __`My-configs` will download nothing during automatic work, this means`My-config
 
 2. write a install bash in your folder.
 
-3. add a line in `initial.sh` to execute your intall bash script.
+3. add a line in `initial.sh` to execute your intall bash script.(default target workplace is HOME, change it if you want something else)
 
 4. `source initial.sh`.
 
