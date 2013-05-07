@@ -37,3 +37,12 @@
 
 ;;save the buffers when exit Emacs
 (desktop-save-mode 1)
+
+;;disable tool-bar
+(tool-bar-mode nil)
+
+;;go-mode
+(add-to-list 'load-path "/usr/local/go/misc/emacs")
+(require 'go-mode-load)
+(setq auto-mode-alist
+      (cons '("\\.go" . go-mode) auto-mode-alist))
