@@ -1,0 +1,8 @@
+.git/
+*~
+*.elc
+*.pyc
+.emacs.d/eproject.lst
+.emacs.d/ac-comphist.dat
+.emacs.d/auto-save-list/
+

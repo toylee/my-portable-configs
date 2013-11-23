@@ -38,11 +38,25 @@
 ;;save the buffers when exit Emacs
 (desktop-save-mode 1)
 
-;;disable tool-bar
-(tool-bar-mode nil)
-
 ;;go-mode
 (add-to-list 'load-path "/usr/local/go/misc/emacs")
 (require 'go-mode-load)
 (setq auto-mode-alist
       (cons '("\\.go" . go-mode) auto-mode-alist))
+(require 'color-theme)
+(eval-after-load "color-theme"
+  '(progn
+     (color-theme-initialize)
+     (color-theme-hober)))
+;; cursor meet mouse    
+(mouse-avoidance-mode 'animate)
+;; yes no 2 y n
+(fset 'yes-or-no-p 'y-or-n-p)			       
+;; set font
+;;(set-default-font "-unknown-文泉驿等宽微米黑-normal-normal-normal-*-*-*-*-*-*-0-iso10646-1" )
+;; set the font size
+;;(set-face-attribute 'default nil :height 150)
+
+;;disable tool-bar
+(tool-bar-mode 0)
+
