@@ -1,0 +1,10 @@
+# name: pelican
+# key: peli
+# --
+Title: $1
+Date: $2
+Category: $3
+Tags: $4
+Authors: coory$5
+Summary: $6
+$0
